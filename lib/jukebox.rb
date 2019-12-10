@@ -16,5 +16,6 @@ def exit_jukebox
 end
 
 def play(songs)
-  puts 
+  puts "Please enter a song name or number:"
+  user
   
