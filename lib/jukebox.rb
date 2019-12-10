@@ -21,4 +21,5 @@ def play(songs)
   if user_i.include?(song)
     return "hi"
   end
+end
   
