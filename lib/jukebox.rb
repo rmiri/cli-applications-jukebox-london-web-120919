@@ -18,8 +18,12 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_i = gets.strip
-  if user_i.include?(song)
+  if songs.include?(user_i)
     return "hi"
+    elsif (1..9).to_a.include?(user_i.to_i)
+    return "by"
+    else 
+    puts "invalid input"
   end
 end
   
